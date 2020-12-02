@@ -23,7 +23,7 @@ public class Extraer_annio {
 		matcher.find();
 		
 		//Mostramos por pantalla el grupo 1
-		System.out.println(matcher.group(1));
+		System.out.println("El año es: "+matcher.group(1));
 
 	}
 
